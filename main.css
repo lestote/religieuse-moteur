@@ -1,0 +1,143 @@
+
+:root {
+    --main-color-white : #FFFFFF;
+    --main-color-light-green : #EEF4E5;
+    --main-color-brown : #463622;
+}
+
+html {
+    margin : 0;
+    padding: 0;
+    background-color: var(--main-color-white);
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    z-index: 999;
+}
+
+h2 {
+    text-align: center;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-item {
+    margin: 25px 0;
+    width: 200px;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.logo-picture {
+    width: 150px;
+}
+
+#open {
+    position: absolute;
+    font-size: 75px;
+    left: 50px;
+    top: 25px;
+}
+
+#close {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+.separator {
+    color: var(--main-color-light-green);
+    width: 150px;
+    margin: 50px auto;
+}
+
+.header-menu {
+    position: absolute;
+    background-color: var(--main-color-light-green);
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.gourmandises {
+    margin: 10px auto;
+    width: 250px;
+    text-align: center;
+    background-color: var(--main-color-light-green);
+    padding: 10px;
+}
+
+.philosophie {
+    text-align: justify;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.philosophie > h3 {
+    border-bottom: 1px solid var(--main-color-light-green);
+}
+
+.product-img {
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+}
+
+.card-member {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid var(--main-color-light-green);
+    background-color: var(--main-color-light-green);
+}
+
+.profile-picture > img {
+    width: 300px;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.map {
+    border: 0;
+    margin: 0 auto;
+    width: 408px;
+    height: 450px;
+}
+
+.contact {
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.inputfield {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inputfield > input {
+    border: 1px solid black;
+}
+
+.button {
+    border-color: var(--main-color-light-green);
+    background-color: var(--main-color-white);
+    padding: 15px;
+    margin: 10px;
+    font-weight: 600;
+}
